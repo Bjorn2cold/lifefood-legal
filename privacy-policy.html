@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personvernerklæring – Lifefood</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      color: #1e293b;
+      background-color: #f8fafc;
+      margin: 0;
+      padding: 24px 16px;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 36px 28px;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(15, 23, 42, 0.06);
+    }
+    h1 { color: #0f766e; margin-top: 0; font-size: 28px; }
+    h2 { color: #0f172a; margin-top: 28px; font-size: 19px; border-bottom: 1px solid #e2e8f0; padding-bottom: 6px; }
+    p, li { color: #334155; font-size: 15px; }
+    .meta { color: #64748b; font-size: 13px; margin-bottom: 24px; }
+    .box {
+      background: #f0fdfa;
+      border-left: 4px solid #0d9488;
+      padding: 14px 16px;
+      border-radius: 8px;
+      margin: 18px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Personvernerklæring for Lifefood</h1>
+    <p class="meta">Sist oppdatert: 21. november 2026 &nbsp;|&nbsp; App-ID: com.bmj.lifefood</p>
+
+    <div class="box">
+      <strong>Kort oppsummert:</strong> Lifefood lagrer profilen din, matloggen din, ukesmenyen og profilbildet ditt <strong>lokalt på din egen telefon</strong>. Vi krever ingen brukerkonto, vi selger aldri dataene dine, og vi viser ingen reklame.
+    </div>
+
+    <h2>1. Hvilke opplysninger som lagres lokalt på enheten</h2>
+    <p>Når du bruker Lifefood, lagres følgende informasjon kun lokalt i telefonens minne (SharedPreferences / app-lagring):</p>
+    <ul>
+      <li>Valgfritt navn og valgfritt profilbilde (lagret kun lokalt på enheten).</li>
+      <li>Alder, kjønn, høyde, vekt, aktivitetsnivå og kalorimål (brukes utelukkende til å beregne ditt daglige energi- og makromål etter Mifflin-St Jeor-formelen).</li>
+      <li>Dagens og tidligere matlogger, vanninntak, ukesmeny og avkrysset handleliste.</li>
+    </ul>
+
+    <h2>2. AI-analyse av matbilder, mattekst og oppskrifter</h2>
+    <p>Når du aktivt velger å bruke <strong>AI Kamera</strong>, <strong>AI-beregning i søket</strong> eller <strong>AI-Kokk</strong>:</p>
+    <ul>
+      <li>Sendes bildet eller tekstbeskrivelsen kryptert (HTTPS) via vår skyfunksjon (Supabase Edge Function) til Google Gemini API for å beregne næringsinnhold eller generere oppskriftsforslag.</li>
+      <li>Bildene og tekstene lagres ikke i noen brukerprofil hos oss og brukes ikke til målrettet annonsering.</li>
+    </ul>
+
+    <h2>3. Tillatelser (Kamera og Bildegalleri)</h2>
+    <p>Appen ber kun om tilgang til kamera eller bildegalleri når du selv velger å:</p>
+    <ul>
+      <li>Ta bilde av et måltid eller en matvare med AI Kamera.</li>
+      <li>Velge et eget profilbilde i profilen din.</li>
+    </ul>
+
+    <h2>4. Eksterne lenker</h2>
+    <p>Handlelisten og oppskriftene inneholder lenker til eksterne nettsider (for eksempel Oda.com og Google-søk) som åpnes i din egen nettleser. Disse nettstedene har egne personvernerklæringer.</p>
+
+    <h2>5. Sletting av data</h2>
+    <p>Siden alle dine personlige data lagres lokalt på din egen enhet, kan du når som helst slette alle data permanent ved å tømme appdata i telefonens innstillinger eller avinstallere Lifefood.</p>
+
+    <h2>6. Medisinsk ansvarsfraskrivelse</h2>
+    <p>Lifefood er et generelt verktøy for kosthold, oppskrifter og kaloriberegning, og erstatter ikke medisinsk rådgivning, diagnose eller behandling fra lege eller klinisk ernæringsfysiolog.</p>
+
+    <h2>7. Kontakt</h2>
+    <p>Har du spørsmål om personvern i Lifefood, kan du kontakte oss via kontaktinformasjonen oppført på Lifefood sin side i Google Play eller Apple App Store.</p>
+
+    <hr style="border:none; border-top:1px solid #e2e8f0; margin:32px 0;" />
+
+    <h1>Privacy Policy – Lifefood (English Summary)</h1>
+    <p>Lifefood stores your profile, nutrition log, weekly menu, and optional profile photo locally on your device. No account registration is required, and we do not sell your data or display third-party ads. When you explicitly use the AI food camera, AI text estimator, or AI recipe generator, the submitted photo or text is transmitted securely over HTTPS to our backend proxy and Google Gemini API solely to return nutritional estimates or recipes. Uninstalling the app permanently deletes all locally stored data.</p>
+  </div>
+</body>
+</html>
